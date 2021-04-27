@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { Trabajador } from "./Clase/Trabajador";
 
 export const View = () => {
@@ -40,19 +41,26 @@ export const View = () => {
           </form>
         </div>
         {informacionTrabajadores.map((trabajador) => (
-          <div
-            id={trabajador.id}
-            onClick={handleClick}
-            className="col-3 flower"
+          <Link
+            to={{
+              pathname: `/detallesTrabajador/${trabajador.id}`,
+              state: { informacionTrabajadores },
+            }}
           >
-            <p>{trabajador.nombre}</p>
-            <img
-              src={trabajador.imgUrl}
-              style={{ width: "200px", height: "200x" }}
-              alt="flower image"
-              className="flower_img"
-            />
-          </div>
+            <div
+              id={trabajador.id}
+              onClick={handleClick}
+              className="col-3 flower"
+            >
+              <p>{trabajador.nombre}</p>
+              <img
+                src={trabajador.imgUrl}
+                style={{ width: "200px", height: "200x" }}
+                alt="flower image"
+                className="flower_img"
+              />
+            </div>
+          </Link>
         ))}
       </div>
     );
@@ -100,19 +108,21 @@ export const View = () => {
           </form>
         </div>
         {searched.map((trabajador) => (
-          <div
-            id={trabajador.id}
-            onClick={handleClick}
-            className="col-3 flower"
-          >
-            <p>{trabajador.nombre}</p>
-            <img
-              src={trabajador.imgUrl}
-              style={{ width: "200px", height: "200x" }}
-              alt="flower image"
-              className="flower_img"
-            />
-          </div>
+          <Link to={`/detallesTrabajador/${trabajador.id}`}>
+            <div
+              id={trabajador.id}
+              onClick={handleClick}
+              className="col-3 flower"
+            >
+              <p>{trabajador.nombre}</p>
+              <img
+                src={trabajador.imgUrl}
+                style={{ width: "200px", height: "200x" }}
+                alt="flower image"
+                className="flower_img"
+              />
+            </div>
+          </Link>
         ))}
       </div>
     );
