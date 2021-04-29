@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRocket } from "@fortawesome/free-solid-svg-icons";
 import { faCalendar } from "@fortawesome/free-solid-svg-icons";
+import logo from "../img/logo.png";
 
 export function DetallesTrabajador({ location }: any) {
   const trabajador: any = location.state.trabajador;
@@ -13,7 +14,8 @@ export function DetallesTrabajador({ location }: any) {
     trabajadores.map((empleado) => {
       if (
         empleado.equipo === trabajador.equipo &&
-        trabajadoresEquipo.length < 3
+        trabajadoresEquipo.length < 3 &&
+        empleado.id != trabajador.id
       ) {
         trabajadoresEquipo.push(empleado);
       }
@@ -22,7 +24,15 @@ export function DetallesTrabajador({ location }: any) {
     return (
       <div className="row">
         {trabajadoresEquipo.map((empleado) => (
-          <Link to={`/detallesTrabajador/${empleado.id}`}>
+          <Link
+            to={{
+              pathname: `/detallesTrabajador/${empleado.id}`,
+              state: {
+                trabajador: empleado,
+                informacionTrabajadores: trabajadores,
+              },
+            }}
+          >
             <div className="col-3">
               <img
                 src={empleado.imgUrl}
@@ -39,9 +49,7 @@ export function DetallesTrabajador({ location }: any) {
   return (
     <div className="container-fluid">
       <Link to="/">
-        <div className="btn btn-black">
-          <button>Pagina principal</button>
-        </div>
+        <img src={logo} className="logo-detallesTrabajdor" alt="logo de Biko" />
       </Link>
       <div className="row">
         <div className="col-6">
@@ -52,18 +60,28 @@ export function DetallesTrabajador({ location }: any) {
           />
         </div>
         <div className="col-6">
-          <div>
+          <div className="nombre-apellidos-trabajador">
             <h1>{trabajador.nombre}</h1>
-            <br />
             <h1>
               <b>{trabajador.apellidos}</b>
             </h1>
           </div>
           <div>
-            ({trabajador.rol})
-            <FontAwesomeIcon icon={faRocket} /> Fenix
-            <FontAwesomeIcon icon={faCalendar} /> Desde{" "}
-            {trabajador.fechaIncorporacion}
+            <div className="rol">({trabajador.rol})</div>
+            <div className="equipo-fecha">
+              <FontAwesomeIcon icon={faRocket} /> Fenix{" "}
+              <FontAwesomeIcon icon={faCalendar} /> Desde{" "}
+              {trabajador.fechaIncorporacion !== undefined
+                ? trabajador.fechaIncorporacion.split("/")[2]
+                : ""}
+            </div>
+            <div className="informacionTrabajador">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+              vitae pretium tellus. Nulla vitae orci egestas neque elementum
+              imperdiet. Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Proin vitae pretium tellus. Nulla vitae orci egestas neque
+              elementum imperdiet.
+            </div>
           </div>
         </div>
       </div>

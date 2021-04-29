@@ -1,31 +1,67 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
 
-.trabajadorBiko > img {
-  width: 272px;
-  height: 265px;
+.trabajador_img {
+  width: 272.45px;
+  height: 265.6px;
 }
 
-.title {
-  position: static;
-  width: 684px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
+.logo {
+  width: 120px;
+  height: 43.3px;
+  position: absolute;
+  top: 71px;
+  right: 144px;
+}
+
+.logo-detallesTrabajdor {
+  width: 120px;
+  height: 43.3px;
+  position: absolute;
+  top: 48px;
+  right: 64px;
+}
+
+.nombre-apellidos-trabajador {
+  padding-top: 64px;
   font-family: Montserrat;
-  font-style: bold;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 58.455px;
+  line-height: 72px;
+}
+.equipo-fecha {
+  font-family: Montserrat;
+  font-style: normal;
   font-weight: bold;
-  font-size: 65.76px;
-  line-height: 80px;
-  color: #132631;
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
-  margin: 24px 0px;
+  font-size: 16px;
+  line-height: 24px;
 }
 
-.header.red.text {
+.informacionTrabajador {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20.25px;
+  line-height: 28px;
+}
+
+.rol {
+  color: #e73f39;
+  font-family: Courier Prime;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22.781px;
+  line-height: 32px;
+}
+.title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 65.758px;
+  line-height: 72px;
+}
+
+.header-red-text {
   font-family: Courier Prime;
   font-style: normal;
   font-weight: normal;

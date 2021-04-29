@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Trabajador } from "../Clase/Trabajador";
 import "bootstrap/dist/css/bootstrap.css";
+import logo from "../img/logo.png";
 
 export const View = () => {
   const [inputSearch, setInputSearch] = useState("");
@@ -29,8 +30,13 @@ export const View = () => {
   function homeView() {
     return (
       <div className="container-fluid">
+        <Link to="/">
+          <img src={logo} className="logo" alt="logo de Biko" />
+        </Link>
         <div className="header">
-          <h1 className="title">Busca Bikonianos</h1>
+          <h1 className="title">
+            Busca <b>Bikonianos</b>
+          </h1>
           <p className="header-red-text">(lorem ipsum dolor set)</p>
           <p className="header-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae
@@ -59,7 +65,7 @@ export const View = () => {
                   <img
                     src={trabajador.imgUrl}
                     alt="flower image"
-                    className="flower_img"
+                    className="trabajador_img"
                   />
                 </div>
               </Link>
@@ -96,7 +102,12 @@ export const View = () => {
     return (
       <div className="container-fluid">
         <div className="header">
-          <h1 className="title">Busca Bikonianos</h1>
+          <Link to="/">
+            <img src={logo} className="logo" alt="logo de Biko" />
+          </Link>
+          <h1 className="title">
+            Busca <b>Bikonianos</b>
+          </h1>
           <p className="header-red-text">(lorem ipsum dolor set)</p>
           <p className="header-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae
@@ -125,7 +136,7 @@ export const View = () => {
                   <img
                     src={trabajador.imgUrl}
                     alt="flower image"
-                    className="flower_img"
+                    className="trabajador_img"
                   />
                 </div>
               </Link>
