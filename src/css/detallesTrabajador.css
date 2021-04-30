@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
 
 .trabajador_img {
   width: 272.45px;
@@ -7,11 +11,18 @@
 }
 
 .logo {
+  position: absolute;
   width: 120px;
   height: 43.3px;
-  position: absolute;
+  left: 1176px;
   top: 71px;
-  right: 144px;
+}
+
+.container {
+  position: relative;
+  width: 1440px;
+  height: 1596px;
+  border: 1px solid black;
 }
 
 .logo-detallesTrabajdor {
@@ -57,6 +68,7 @@
 .title {
   font-family: Montserrat;
   font-style: normal;
+  font-weight: 300;
   font-size: 65.758px;
   line-height: 72px;
 }
@@ -68,6 +80,70 @@
   font-size: 22.781px;
   line-height: 32px;
   color: #e73f39;
+  padding-top: 24px;
+}
+
+.body-input-body-text {
+  position: absolute;
+  width: 765px;
+  height: 156px;
+  left: 0px;
+  top: 48px;
+}
+
+.body-text {
+  position: absolute;
+  width: 684px;
+  height: 64px;
+  left: 146px;
+  top: 224px;
+}
+
+.body-text-type {
+  position: static;
+  width: 684px;
+  height: 64px;
+  left: calc(50% - 684px / 2);
+  top: calc(50% - 64px / 2);
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22.78px;
+  line-height: 32px;
+}
+
+.header {
+  position: absolute;
+  width: 978px;
+  height: 166px;
+  left: 0px;
+  top: 30px;
+}
+
+.header-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 684px;
+  height: 366px;
+  left: 142px;
+  top: 20px;
+}
+.header-layout-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 684px;
+  height: 128px;
+  left: 0px;
+  top: 0px;
 }
 
 .header-text {
@@ -90,4 +166,53 @@
   align-self: stretch;
   flex-grow: 0;
   margin: 24px 0px;
+  padding-top: 46px;
+}
+
+.searchInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px;
+
+  position: absolute;
+  width: 706px;
+  height: 60px;
+  left: 146px;
+  top: 320px;
+}
+
+.trabajador_img {
+  padding-top: 100px;
+}
+
+.btn-sumbit {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 851px;
+  top: 320px;
+  background: #e73f39;
+}
+
+.trabajadoresBiko-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 1152px;
+  height: 852px;
+  left: 142px;
+  top: 454px;
+}
+
+.fotoTrabajadorBiko {
+  position: absolute;
+  width: 729.57px;
+  height: 711.28px;
+  left: -6.57px;
+  top: -2.14px;
 }

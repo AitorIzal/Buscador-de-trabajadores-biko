@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRocket } from "@fortawesome/free-solid-svg-icons";
 import { faCalendar } from "@fortawesome/free-solid-svg-icons";
@@ -34,11 +33,7 @@ export function DetallesTrabajador({ location }: any) {
             }}
           >
             <div className="col-3">
-              <img
-                src={empleado.imgUrl}
-                alt=""
-                style={{ width: "729.57px", height: "711.28px" }}
-              />
+              <img src={empleado.imgUrl} alt="" className="trabajador_img" />
             </div>
           </Link>
         ))}
@@ -47,7 +42,7 @@ export function DetallesTrabajador({ location }: any) {
   }
 
   return (
-    <div className="container-fluid">
+    <div className="container">
       <Link to="/">
         <img src={logo} className="logo-detallesTrabajdor" alt="logo de Biko" />
       </Link>
@@ -55,7 +50,7 @@ export function DetallesTrabajador({ location }: any) {
         <div className="col-6">
           <img
             src={trabajador.imgUrl}
-            style={{ width: "729.57px", height: "711.28px" }}
+            className="fotoTrabajadorBiko"
             alt="imagen de trabajador de Biko"
           />
         </div>

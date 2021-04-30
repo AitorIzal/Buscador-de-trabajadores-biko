@@ -2,7 +2,6 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Trabajador } from "../Clase/Trabajador";
-import "bootstrap/dist/css/bootstrap.css";
 import logo from "../img/logo.png";
 
 export const View = () => {
@@ -29,29 +28,47 @@ export const View = () => {
 
   function homeView() {
     return (
-      <div className="container-fluid">
-        <Link to="/">
-          <img src={logo} className="logo" alt="logo de Biko" />
-        </Link>
+      <div className="container">
         <div className="header">
-          <h1 className="title">
-            Busca <b>Bikonianos</b>
-          </h1>
-          <p className="header-red-text">(lorem ipsum dolor set)</p>
-          <p className="header-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae
-            pretium tellus.
-          </p>
+          <Link to="/">
+            <img src={logo} className="logo" alt="logo de Biko" />
+          </Link>
+          <div className="header-layout">
+            <div className="header-layout-text">
+              <h1 className="title">
+                Busca <b>Bikonianos</b>
+              </h1>
+              <p className="header-red-text">(lorem ipsum dolor set)</p>
+            </div>
+          </div>
         </div>
-        <div>
-          <form onSubmit={handleSumbit}>
-            <input type="search" id="searchInput" className="searchInput" />
-            <button type="submit">buscar</button>
-          </form>
-        </div>
-        <div className="row">
+
+        <div className="">
+          <div className="body-input-body-text">
+            <div className="body-text">
+              <p className="body-text-type">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                vitae pretium tellus.
+              </p>
+            </div>
+
+            <div>
+              <form onSubmit={handleSumbit}>
+                <input
+                  type="search"
+                  id="searchInput"
+                  placeholder="Nombre Bikoniano"
+                  className="searchInput"
+                />
+                <button type="submit" className="btn-sumbit">
+                  buscar
+                </button>
+              </form>
+            </div>
+          </div>
+
           {informacionTrabajadores.map((trabajador) => (
-            <div id={trabajador.id} className="col-3">
+            <div id={trabajador.id} className="trabajadoresBiko-container">
               <Link
                 to={{
                   pathname: `/detallesTrabajador/${trabajador.id}`,
@@ -100,7 +117,7 @@ export const View = () => {
     console.log(searched);
 
     return (
-      <div className="container-fluid">
+      <div className="container">
         <div className="header">
           <Link to="/">
             <img src={logo} className="logo" alt="logo de Biko" />
@@ -114,34 +131,41 @@ export const View = () => {
             pretium tellus.
           </p>
         </div>
-        <div>
-          <form onSubmit={handleSumbit}>
-            <input type="search" id="searchInput" className="searchInput" />
-            <button type="submit">buscar</button>
-          </form>
-        </div>
-        <div className="row">
-          {searched.map((trabajador) => (
-            <div id={trabajador.id} className="col-3">
-              <Link
-                to={{
-                  pathname: `/detallesTrabajador/${trabajador.id}`,
-                  state: {
-                    trabajador: trabajador,
-                    informacionTrabajadores: informacionTrabajadores,
-                  },
-                }}
-              >
-                <div className="trabajadorBiko">
-                  <img
-                    src={trabajador.imgUrl}
-                    alt="flower image"
-                    className="trabajador_img"
-                  />
-                </div>
-              </Link>
-            </div>
-          ))}
+        <div className="body">
+          <div>
+            <form onSubmit={handleSumbit}>
+              <input
+                type="search"
+                placeholder="Nombre Bikoniano"
+                id="searchInput"
+                className="searchInput"
+              />
+              <button type="submit">buscar</button>
+            </form>
+          </div>
+          <div className="row">
+            {searched.map((trabajador) => (
+              <div id={trabajador.id} className="col-3">
+                <Link
+                  to={{
+                    pathname: `/detallesTrabajador/${trabajador.id}`,
+                    state: {
+                      trabajador: trabajador,
+                      informacionTrabajadores: informacionTrabajadores,
+                    },
+                  }}
+                >
+                  <div className="trabajadorBiko">
+                    <img
+                      src={trabajador.imgUrl}
+                      alt="flower image"
+                      className="trabajador_img"
+                    />
+                  </div>
+                </Link>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     );
