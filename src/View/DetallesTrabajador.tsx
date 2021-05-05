@@ -22,7 +22,7 @@ export function DetallesTrabajador({ location }: any) {
     });
 
     return (
-      <div className="row">
+      <div className="trabajadorEquipo">
         {trabajadoresEquipo.map((empleado) => (
           <Link
             to={{
@@ -46,7 +46,7 @@ export function DetallesTrabajador({ location }: any) {
     trabajadores.map((empleado) => {
       if (
         empleado.tecnologias.includes(trabajador.tecnologias.split(" ")[0]) &&
-        trabajadoresEquipo.length < 3 &&
+        trabajadoresTecnologias.length < 3 &&
         empleado.id != trabajador.id
       ) {
         trabajadoresTecnologias.push(empleado);
@@ -136,11 +136,14 @@ export function DetallesTrabajador({ location }: any) {
         </div>
         <div>
           <p>Miembros de {trabajador.tecnologias.split(" ")[0]}</p>
+          {trabajadoresMismaTecnologia()}
         </div>
       </div>
-      <div>
-        <p>Otra gente de {trabajador.equipo}</p>
-        {trabajadoresMismoEquipo()}
+      <div className="treabajadoresEquipo">
+        <div className="mismoEquipo">
+          <p>Otra gente de {trabajador.equipo}</p>
+          {trabajadoresMismoEquipo()}
+        </div>
       </div>
     </div>
   );

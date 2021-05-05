@@ -17,7 +17,6 @@
   position: relative;
   width: 1440px;
   height: 1596px;
-  border: 1px solid black;
 }
 
 .logo-detallesTrabajdor {
@@ -334,4 +333,27 @@
   line-height: 28px;
 
   color: #e73f39;
+}
+
+.trabajadoresEquipo {
+  position: absolute;
+  width: 1269px;
+  height: 537px;
+  left: 142px;
+  top: 2199px;
+}
+
+.mismoEquipo {
+  position: absolute;
+  width: 858px;
+  height: 264px;
+  left: 144px;
+  top: 2319px;
+}
+
+.trabajadorEquipo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
 }
