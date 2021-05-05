@@ -5,17 +5,12 @@
   padding: 0;
 }
 
-.trabajador_img {
-  width: 272.45px;
-  height: 265.6px;
-}
-
 .logo {
   position: absolute;
   width: 120px;
   height: 43.3px;
   left: 1176px;
-  top: 71px;
+  top: 41px;
 }
 
 .container {
@@ -26,15 +21,36 @@
 }
 
 .logo-detallesTrabajdor {
+  position: absolute;
   width: 120px;
   height: 43.3px;
-  position: absolute;
+  left: 1256px;
   top: 48px;
-  right: 64px;
+}
+
+.trabajador {
+  position: absolute;
+  width: 1481px;
+  height: 1712px;
+  left: -3px;
+  top: 0px;
+}
+
+.informacionTrajador {
+  position: absolute;
+  width: 684px;
+  height: 476px;
+  left: 794px;
+  top: 64px;
 }
 
 .nombre-apellidos-trabajador {
-  padding-top: 64px;
+  position: static;
+  width: 684px;
+  height: 144px;
+  left: 0px;
+  top: 0px;
+
   font-family: Montserrat;
   font-style: normal;
   font-weight: 300;
@@ -64,6 +80,12 @@
   font-weight: normal;
   font-size: 22.781px;
   line-height: 32px;
+
+  position: static;
+  width: 164px;
+  height: 32px;
+  left: 0px;
+  top: 168px;
 }
 .title {
   font-family: Montserrat;
@@ -88,7 +110,15 @@
   width: 765px;
   height: 156px;
   left: 0px;
-  top: 48px;
+  top: -10px;
+}
+
+.grupo-44 {
+  position: absolute;
+  width: 765px;
+  height: 156px;
+  left: 146px;
+  top: 224px;
 }
 
 .body-text {
@@ -184,7 +214,17 @@
 }
 
 .trabajador_img {
-  padding-top: 100px;
+  position: static;
+  width: 270px;
+  height: 264px;
+  left: 0px;
+  top: 0px;
+}
+
+.trabajador_img:hover {
+  width: 270px;
+  height: 264px;
+  background-image: linear-gradient(90deg, #fedd27);
 }
 
 .btn-sumbit {
@@ -202,11 +242,18 @@
   align-items: flex-start;
   padding: 0px;
 
-  position: absolute;
-  width: 1152px;
-  height: 852px;
-  left: 142px;
-  top: 454px;
+  position: static;
+  width: 264px;
+  height: 264px;
+  left: 0px;
+  top: 0px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .fotoTrabajadorBiko {
@@ -215,4 +262,76 @@
   height: 711.28px;
   left: -6.57px;
   top: -2.14px;
+}
+
+.picture-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 1152px;
+  height: 852px;
+  left: 139.55px;
+  top: 454px;
+}
+
+.line-grid {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  flex-wrap: wrap;
+
+  position: static;
+  width: 1180px;
+  height: 264px;
+  left: 0px;
+  top: 0px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 30px 0px;
+}
+
+.lista-tecnologias {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 370px;
+  height: 32px;
+  left: 0px;
+  top: 0px;
+}
+
+.tecnologia {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 12px;
+
+  position: static;
+  width: 134px;
+  height: 32px;
+  left: 236px;
+  top: 0px;
+  margin: 0 3px;
+
+  border: 1px solid #e73f39;
+  box-sizing: border-box;
+  border-radius: 29px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.6px;
+  line-height: 28px;
+
+  color: #e73f39;
 }

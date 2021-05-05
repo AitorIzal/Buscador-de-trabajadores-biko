@@ -6,7 +6,8 @@
         "equipo": "14 BIKOLABS",
         "rol": "Consultor UX",
         "fechaIncorporacion": "03/07/2000",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "2",
@@ -15,7 +16,8 @@
         "equipo": "12 ESTRUCTURA",
         "rol": "Administración",
         "fechaIncorporacion": "1/10/2002",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "3",
@@ -23,7 +25,8 @@
         "apellidos": "ALZUETA",
         "equipo": "13 OPENBANK",
         "rol": "Desarrollador",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "4",
@@ -32,7 +35,8 @@
         "equipo": "13 OPENBANK",
         "rol": "Desarrollador",
         "fechaIncorporacion": "20/03/2017",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "5",
@@ -41,7 +45,8 @@
         "equipo": "&#10;08 LOS CURRIS",
         "rol": "Diseño grafico",
         "fechaIncorporacion": "25/10/2001",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "6",
@@ -50,7 +55,8 @@
         "equipo": "&#10;04 HAL9000",
         "rol": "Marketing y Mantenimiento Web",
         "fechaIncorporacion": "11/04/2017",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "7",
@@ -59,7 +65,8 @@
         "equipo": "&#10;11 ECI",
         "rol": "Desarrollador",
         "fechaIncorporacion": "03/01/2018",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "8",
@@ -68,7 +75,8 @@
         "equipo": "&#10;03 ZARA",
         "rol": "Maquetación",
         "fechaIncorporacion": "20/06/2008",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "9",
@@ -77,7 +85,8 @@
         "equipo": "&#10;05 FENIX",
         "rol": "Desarrollador",
         "fechaIncorporacion": "26/11/2007",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "10",
@@ -86,7 +95,8 @@
         "equipo": "15 GENIALLY",
         "rol": "Desarrollador",
         "fechaIncorporacion": "09/01/2017",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "11",
@@ -95,7 +105,8 @@
         "equipo": "&#10;02 IMPLANTS",
         "rol": "Implant Cetelem",
         "fechaIncorporacion": "10/01/2018",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "12",
@@ -103,7 +114,8 @@
         "apellidos": "CALVO",
         "equipo": "&#10;05 FENIX",
         "rol": "Desarrollador",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "13",
@@ -112,14 +124,16 @@
         "equipo": "12 ESTRUCTURA",
         "rol": "Gerencia",
         "fechaIncorporacion": "01/09/1997",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "14",
         "nombre": "ASIER",
         "apellidos": "CHORDA",
         "equipo": "&#10;07 ALL BLACKS",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "15",
@@ -127,7 +141,8 @@
         "apellidos": "CILVETI",
         "equipo": "&#10;01 BOLA8",
         "rol": "Desarrollador",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "16",
@@ -136,7 +151,8 @@
         "equipo": "&#10;05 FENIX",
         "rol": "Desarrollador",
         "fechaIncorporacion": "21/10/2019",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "17",
@@ -145,7 +161,8 @@
         "equipo": "&#10;07 ALL BLACKS",
         "rol": "Desarrollador",
         "fechaIncorporacion": "23/03/2018",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "18",
@@ -154,7 +171,8 @@
         "equipo": "&#10;08 LOS CURRIS",
         "rol": "Product owner",
         "fechaIncorporacion": "18/09/2006",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "19",
@@ -163,7 +181,8 @@
         "equipo": "&#10;01 BOLA8",
         "rol": "Desarrollador",
         "fechaIncorporacion": "16/07/2018",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "20",
@@ -172,7 +191,8 @@
         "equipo": "&#10;07 ALL BLACKS",
         "rol": "Product owner",
         "fechaIncorporacion": "02/09/2019",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "21",
@@ -181,7 +201,8 @@
         "equipo": "&#10;11 ECI",
         "rol": "Desarrollador",
         "fechaIncorporacion": "03/07/2000",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "22",
@@ -189,7 +210,8 @@
         "apellidos": "ECHAVARRI",
         "equipo": "15 GENIALLY",
         "rol": "Desarrollador",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "23",
@@ -198,7 +220,8 @@
         "equipo": "&#10;01 BOLA8",
         "rol": "Diseño grafico",
         "fechaIncorporacion": "23/05/2005",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "24",
@@ -207,7 +230,8 @@
         "equipo": "&#10;11 ECI",
         "rol": "Desarrollador",
         "fechaIncorporacion": "18/07/2005",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "25",
@@ -216,7 +240,8 @@
         "equipo": "12 ESTRUCTURA",
         "rol": "Administración",
         "fechaIncorporacion": "08/01/2001",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "26",
@@ -225,7 +250,8 @@
         "equipo": "&#10;09 HELVETIA",
         "rol": "Desarrollador",
         "fechaIncorporacion": "22/11/2004",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "27",
@@ -234,7 +260,8 @@
         "equipo": "&#10;09 HELVETIA",
         "rol": "Product owner",
         "fechaIncorporacion": "2/11/2000",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "28",
@@ -242,7 +269,8 @@
         "apellidos": "FERNANDEZ",
         "equipo": "&#10;02 IMPLANTS",
         "rol": "Implant Cetelem",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "29",
@@ -251,7 +279,8 @@
         "equipo": "&#10;09 HELVETIA",
         "rol": "Helvetia (Marketing y Mantenimiento Web)",
         "fechaIncorporacion": "27/11/2018",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "30",
@@ -260,7 +289,8 @@
         "equipo": "&#10;02 IMPLANTS",
         "rol": "Implant Cetelem",
         "fechaIncorporacion": "1/10/2019",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "31",
@@ -269,7 +299,8 @@
         "equipo": "&#10;06 OOMPA LOOMPAS",
         "rol": "Implant Thyssen",
         "fechaIncorporacion": "01/01/2019",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "32",
@@ -278,14 +309,16 @@
         "equipo": "&#10;10 NATIONAL GEOGRAPHIC",
         "rol": "Desarrollador",
         "fechaIncorporacion": "16/08/2004",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "33",
         "nombre": "MARCOS",
         "apellidos": "GALVEZ",
         "equipo": "&#10;05 FENIX",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "34",
@@ -294,7 +327,8 @@
         "equipo": "&#10;11 ECI",
         "rol": "Desarrollador",
         "fechaIncorporacion": "23/06/2005",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "35",
@@ -303,7 +337,8 @@
         "equipo": "&#10;05 FENIX",
         "rol": "Product owner",
         "fechaIncorporacion": "15/09/1998",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "36",
@@ -311,7 +346,8 @@
         "apellidos": "GARCIA NAVARRO",
         "equipo": "&#10;04 HAL9000",
         "rol": "Programador",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "37",
@@ -319,7 +355,8 @@
         "apellidos": "GARIN",
         "equipo": "&#10;07 ALL BLACKS",
         "rol": "Programador",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "38",
@@ -328,7 +365,8 @@
         "equipo": "13 OPENBANK",
         "rol": "Desarrollador",
         "fechaIncorporacion": "25/06/2007",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "39",
@@ -337,7 +375,8 @@
         "equipo": "12 ESTRUCTURA",
         "rol": "Sistemas",
         "fechaIncorporacion": "03/09/2007",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "40",
@@ -346,7 +385,8 @@
         "equipo": "&#10;06 OOMPA LOOMPAS",
         "rol": "Consultor UX",
         "fechaIncorporacion": "01/04/2003",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "41",
@@ -354,7 +394,8 @@
         "apellidos": "RESANO",
         "equipo": "&#10;04 HAL9000",
         "rol": "INVESTICC",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "42",
@@ -362,7 +403,8 @@
         "apellidos": "ARRESE",
         "equipo": "13 OPENBANK",
         "rol": "INVESTICC",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "43",
@@ -370,7 +412,8 @@
         "apellidos": "G LIBERAL",
         "equipo": "14 BIKOLABS",
         "rol": "INVESTICC",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "44",
@@ -379,7 +422,8 @@
         "equipo": "12 ESTRUCTURA",
         "rol": "Comunicación",
         "fechaIncorporacion": "04/02/2019",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "45",
@@ -388,14 +432,16 @@
         "equipo": "&#10;05 FENIX",
         "rol": "Desarrollador",
         "fechaIncorporacion": "24/09/2018",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "46",
         "nombre": "AINHOA",
         "apellidos": "IZKUE URDANIZ, AINHOA",
         "equipo": "&#10;05 FENIX",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "47",
@@ -404,7 +450,8 @@
         "equipo": "&#10;11 ECI",
         "rol": "Maquetación",
         "fechaIncorporacion": "29/05/2006",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "48",
@@ -413,7 +460,8 @@
         "equipo": "&#10;01 BOLA8",
         "rol": "Consultor UX",
         "fechaIncorporacion": "01/07/2004",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "49",
@@ -421,7 +469,8 @@
         "apellidos": "KOSENKO, MAKSYM",
         "equipo": "&#10;10 NATIONAL GEOGRAPHIC",
         "rol": "Desarrollador",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "50",
@@ -430,7 +479,8 @@
         "equipo": "13 OPENBANK",
         "rol": "Desarrollador",
         "fechaIncorporacion": "01/04/2016",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "51",
@@ -439,7 +489,8 @@
         "equipo": "&#10;06 OOMPA LOOMPAS",
         "rol": "Desarrollador",
         "fechaIncorporacion": "1/12/2008",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "52",
@@ -448,7 +499,8 @@
         "equipo": "&#10;04 HAL9000",
         "rol": "Desarrollador",
         "fechaIncorporacion": "01/07/2004",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "53",
@@ -457,7 +509,8 @@
         "equipo": "&#10;08 LOS CURRIS",
         "rol": "Desarrollador",
         "fechaIncorporacion": "1/10/2018",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "54",
@@ -465,7 +518,8 @@
         "apellidos": "MARTINEZ DE ESPRONCEDA CAMARA",
         "equipo": "&#10;01 BOLA8",
         "rol": "Desarrollador",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "55",
@@ -474,7 +528,8 @@
         "equipo": "&#10;06 OOMPA LOOMPAS",
         "rol": "Diseño grafico",
         "fechaIncorporacion": "27/11/2019",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "56",
@@ -483,7 +538,8 @@
         "equipo": "&#10;03 ZARA",
         "rol": "Desarrollador",
         "fechaIncorporacion": "1/10/2016",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "57",
@@ -492,7 +548,8 @@
         "equipo": "&#10;11 ECI",
         "rol": "Desarrollador",
         "fechaIncorporacion": "27/06/2005",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "58",
@@ -501,7 +558,8 @@
         "equipo": "&#10;11 ECI",
         "rol": "Desarrollador",
         "fechaIncorporacion": "09/01/2019",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "59",
@@ -510,7 +568,8 @@
         "equipo": "&#10;05 FENIX",
         "rol": "Desarrollador",
         "fechaIncorporacion": "20/03/2017",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "60",
@@ -519,7 +578,8 @@
         "equipo": "&#10;06 OOMPA LOOMPAS",
         "rol": "Diseño grafico",
         "fechaIncorporacion": "16/11/2007",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "61",
@@ -528,7 +588,8 @@
         "equipo": "&#10;08 LOS CURRIS",
         "rol": "Maquetación",
         "fechaIncorporacion": "07/04/2003",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "62",
@@ -537,7 +598,8 @@
         "equipo": "&#10;05 FENIX",
         "rol": "Desarrollador",
         "fechaIncorporacion": "09/07/2018",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "63",
@@ -546,7 +608,8 @@
         "equipo": "&#10;01 BOLA8",
         "rol": "Desarrollador",
         "fechaIncorporacion": "22/01/2019",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "64",
@@ -555,7 +618,8 @@
         "equipo": "&#10;07 ALL BLACKS",
         "rol": "Desarrollador",
         "fechaIncorporacion": "23/10/2019",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "65",
@@ -564,7 +628,8 @@
         "equipo": "&#10;02 IMPLANTS",
         "rol": "Implant Cetelem",
         "fechaIncorporacion": "28/03/2019",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "66",
@@ -573,7 +638,8 @@
         "equipo": "&#10;04 HAL9000",
         "rol": "Consultor UX + Diseño",
         "fechaIncorporacion": "10/10/2019",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "67",
@@ -582,7 +648,8 @@
         "equipo": "&#10;05 FENIX",
         "rol": "Desarrollador",
         "fechaIncorporacion": "19/08/2019",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "68",
@@ -591,7 +658,8 @@
         "equipo": "&#10;05 FENIX",
         "rol": "Consultor UX",
         "fechaIncorporacion": "20/02/2006",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "69",
@@ -600,7 +668,8 @@
         "equipo": "&#10;06 OOMPA LOOMPAS",
         "rol": "Product Owner",
         "fechaIncorporacion": "16/03/2005",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "70",
@@ -609,7 +678,8 @@
         "equipo": "&#10;01 BOLA8",
         "rol": "Desarrollador",
         "fechaIncorporacion": "18/07/2016",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "71",
@@ -618,7 +688,8 @@
         "equipo": "&#10;03 ZARA",
         "rol": "Consultor UX",
         "fechaIncorporacion": "22/05/2006",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "72",
@@ -627,7 +698,8 @@
         "equipo": "&#10;10 NATIONAL GEOGRAPHIC",
         "rol": "Desarrollador",
         "fechaIncorporacion": "15/09/1998",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "73",
@@ -636,7 +708,8 @@
         "equipo": "12 ESTRUCTURA",
         "rol": "Director Operaciones",
         "fechaIncorporacion": "18/12/2006",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "74",
@@ -645,7 +718,8 @@
         "equipo": "&#10;02 IMPLANTS",
         "rol": "Implant Cetelem",
         "fechaIncorporacion": "11/12/2018",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "75",
@@ -654,7 +728,8 @@
         "equipo": "&#10;11 ECI",
         "rol": "Product Owner",
         "fechaIncorporacion": "05/02/2007",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "76",
@@ -663,7 +738,8 @@
         "equipo": "&#10;01 BOLA8",
         "rol": "Product Owner",
         "fechaIncorporacion": "12/10/2000",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "77",
@@ -672,7 +748,8 @@
         "equipo": "&#10;05 FENIX",
         "rol": "Desarrollador",
         "fechaIncorporacion": "1/10/2018",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     },
     {
         "id": "78",
@@ -681,6 +758,7 @@
         "equipo": "12 ESTRUCTURA",
         "rol": "Administración",
         "fechaIncorporacion": "07/05/2018",
-        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png"
+        "imgUrl": "https://www.globalmascota.com/data/fotos/bebe-gato.png",
+        "tecnologias": "react symphony drupal componetizacion"
     }
 ]
