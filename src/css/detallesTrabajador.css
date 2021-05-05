@@ -13,7 +13,7 @@
   top: 41px;
 }
 
-.container {
+.main-container {
   position: relative;
   width: 1440px;
   height: 1596px;
@@ -36,6 +36,11 @@
 }
 
 .informacionTrajador {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
   position: absolute;
   width: 684px;
   height: 476px;
@@ -46,22 +51,283 @@
 .nombre-apellidos-trabajador {
   position: static;
   width: 684px;
-  height: 144px;
   left: 0px;
   top: 0px;
 
   font-family: Montserrat;
   font-style: normal;
-  font-weight: 300;
   font-size: 58.455px;
   line-height: 72px;
+
+  color: #132631;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 24px 0px;
 }
-.equipo-fecha {
+.container-equipo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 81px;
+  height: 24px;
+  left: 0px;
+}
+
+.cohete {
+  position: static;
+  left: 0px;
+  top: 0px;
+  font-size: 23px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 12px;
+  transform: rotate(35deg);
+}
+
+.equipo-texto {
+  position: static;
+  height: 24px;
+  left: 18.85px;
+  top: 11.5px;
+
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
+
+  color: #132631;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 12px;
+}
+
+.container-calendario {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 128px;
+  height: 24px;
+  left: 175px;
+}
+
+.calendario {
+  position: static;
+  font-size: 23px;
+  left: 0px;
+  top: 0px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 12px;
+}
+
+.calendario-texto {
+  position: static;
+  height: 24px;
+  left: 14.6px;
+  top: 11.5px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #132631;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 12px;
+}
+
+.container-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 579px;
+  height: 204px;
+  left: 0px;
+  top: 272px;
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 24px 0px;
+}
+
+.descripcionTrabajador {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 579px;
+  height: 140px;
+  left: 0px;
+
+  position: static;
+  width: 579px;
+  height: 140px;
+  left: 0px;
+  top: 64px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.sobreTrabajador {
+  position: static;
+  width: 579px;
+  height: 140px;
+  left: calc(50% - 579px / 2);
+  top: calc(50% - 140px / 2);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20.25px;
+  line-height: 28px;
+  color: #132631;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 24px 0px;
+}
+
+.container-otros-trabajadores {
+  position: absolute;
+  width: 1440px;
+  height: 1005px;
+  left: 0px;
+  top: 707px;
+}
+
+.tecnologia-titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 48px;
+
+  position: absolute;
+  width: 919px;
+  height: 92px;
+  left: 142px;
+  top: 96px;
+}
+
+.tituloTecnologia {
+  position: static;
+  width: 919px;
+  height: 44px;
+  left: calc(50% - 919px / 2);
+  top: calc(50% - 44px / 2 - 24px);
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36.49px;
+  line-height: 44px;
+
+  color: #132631;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+
+.miembros-tecnologia {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 1152px;
+  height: 264px;
+  left: 144px;
+  top: 200px;
+}
+
+.miembro-tecnologia {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  flex: none;
+  flex-grow: 0;
+
+  margin-right: 30px;
+}
+
+.arrow-container {
+  position: absolute;
+  width: 1269px;
+  height: 537px;
+  left: 142px;
+  top: 550px;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.arrow-shape {
+  position: absolute;
+  width: 92px;
+  height: 2px;
+  left: -42px;
+  top: 28px;
+  background: #000000;
+  transform: rotate(90deg);
+}
+
+p > .arrow {
+  margin-top: 50px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.equipo-titulo {
+  position: static;
+  width: 919px;
+  height: 44px;
+  left: calc(50% - 919px / 2);
+  top: calc(50% - 44px / 2 - 24px);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36.49px;
+  line-height: 44px;
+  color: #000000;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 12px 0px;
 }
 
 .informacionTrabajador {
@@ -73,19 +339,34 @@
 }
 
 .rol {
-  color: #e73f39;
+  position: static;
+  height: 32px;
+  left: 0px;
+  top: 168px;
   font-family: Courier Prime;
   font-style: normal;
   font-weight: normal;
   font-size: 22.781px;
   line-height: 32px;
+  color: #e73f39;
 
-  position: static;
-  width: 164px;
-  height: 32px;
-  left: 0px;
-  top: 168px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
+
+.icons-container {
+  position: static;
+  width: 593px;
+  height: 24px;
+  left: 0px;
+  top: 224px;
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
 .title {
   font-family: Montserrat;
   font-style: normal;
@@ -198,6 +479,10 @@
   padding-top: 46px;
 }
 
+.searchIcon {
+  color: white;
+}
+
 .searchInput {
   display: flex;
   flex-direction: column;
@@ -256,11 +541,16 @@
 }
 
 .fotoTrabajadorBiko {
-  position: absolute;
-  width: 729.57px;
-  height: 711.28px;
-  left: -6.57px;
-  top: -2.14px;
+  position: static;
+  width: 723px;
+  height: 707px;
+  left: 0px;
+  top: 0px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+  background: #c4c4c4;
 }
 
 .picture-grid {
@@ -306,6 +596,10 @@
   height: 32px;
   left: 0px;
   top: 0px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .tecnologia {
@@ -318,37 +612,42 @@
   position: static;
   width: 134px;
   height: 32px;
-  left: 236px;
-  top: 0px;
-  margin: 0 3px;
 
+  top: 0px;
   border: 1px solid #e73f39;
   box-sizing: border-box;
   border-radius: 29px;
+  margin: 0px 8px;
 
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
   font-size: 12.6px;
   line-height: 28px;
-
   color: #e73f39;
+  margin: 0px 10px;
 }
 
 .trabajadoresEquipo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 48px;
+
   position: absolute;
-  width: 1269px;
-  height: 537px;
+  width: 919px;
+  height: 92px;
+
+  top: 670px;
   left: 142px;
-  top: 2199px;
 }
 
 .mismoEquipo {
   position: absolute;
   width: 858px;
   height: 264px;
-  left: 144px;
-  top: 2319px;
+  left: 130px;
+  top: 750px;
 }
 
 .trabajadorEquipo {

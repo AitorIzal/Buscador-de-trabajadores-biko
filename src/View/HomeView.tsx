@@ -29,7 +29,7 @@ export const View = () => {
 
   function homeView() {
     return (
-      <div className="container">
+      <div className="main-container">
         <div className="header">
           <Link to="/">
             <img src={logo} className="logo" alt="logo de Biko" />

@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRocket } from "@fortawesome/free-solid-svg-icons";
 import { faCalendar } from "@fortawesome/free-solid-svg-icons";
 import logo from "../img/logo.png";
+import "bootstrap/dist/css/bootstrap.css";
 
 export function DetallesTrabajador({ location }: any) {
   const trabajador: any = location.state.trabajador;
@@ -14,7 +15,7 @@ export function DetallesTrabajador({ location }: any) {
     trabajadores.map((empleado) => {
       if (
         empleado.equipo === trabajador.equipo &&
-        trabajadoresEquipo.length < 3 &&
+        trabajadoresEquipo.length < 4 &&
         empleado.id != trabajador.id
       ) {
         trabajadoresEquipo.push(empleado);
@@ -22,7 +23,7 @@ export function DetallesTrabajador({ location }: any) {
     });
 
     return (
-      <div className="trabajadorEquipo">
+      <div className="d-flex">
         {trabajadoresEquipo.map((empleado) => (
           <Link
             to={{
@@ -42,11 +43,26 @@ export function DetallesTrabajador({ location }: any) {
     );
   }
 
+  function getDate() {
+    if (trabajador.fechaIncorporacion !== undefined) {
+      return (
+        <div className="container-calendario">
+          <p className="calendario-texto">
+            <FontAwesomeIcon icon={faCalendar} className="calendario" />
+            <b>{"Desde " + trabajador.fechaIncorporacion.split("/")[2]}</b>
+          </p>
+        </div>
+      );
+    } else {
+      return "";
+    }
+  }
+
   function trabajadoresMismaTecnologia() {
     trabajadores.map((empleado) => {
       if (
         empleado.tecnologias.includes(trabajador.tecnologias.split(" ")[0]) &&
-        trabajadoresTecnologias.length < 3 &&
+        trabajadoresTecnologias.length < 4 &&
         empleado.id != trabajador.id
       ) {
         trabajadoresTecnologias.push(empleado);
@@ -54,7 +70,7 @@ export function DetallesTrabajador({ location }: any) {
     });
 
     return (
-      <div className="row">
+      <div className="d-flex">
         {trabajadoresTecnologias.map((empleado) => (
           <Link
             to={{
@@ -65,7 +81,7 @@ export function DetallesTrabajador({ location }: any) {
               },
             }}
           >
-            <div className="col-3">
+            <div className="miembro-tecnologia">
               <img src={empleado.imgUrl} alt="" className="trabajador_img" />
             </div>
           </Link>
@@ -88,8 +104,44 @@ export function DetallesTrabajador({ location }: any) {
   }
 
   return (
-    <div className="container">
+    <div className="main-container">
       <div className="trabajador">
+        <img
+          src={trabajador.imgUrl}
+          className="fotoTrabajadorBiko"
+          alt="imagen de trabajador de Biko"
+        />
+
+        <div className="informacionTrajador">
+          <h1 className="nombre-apellidos-trabajador">{trabajador.nombre}</h1>
+          <h1 className="nombre-apellidos-trabajador">
+            <b>{trabajador.apellidos}</b>
+          </h1>
+
+          <div className="rol">({trabajador.rol})</div>
+          <div className="icons-container">
+            <div className="container-equipo">
+              <FontAwesomeIcon icon={faRocket} className="cohete" />
+              <p className="equipo-texto">{trabajador.equipo}</p>
+            </div>
+            {getDate()}
+          </div>
+
+          <div className="container-texto">
+            {tecnologias()}
+
+            <div className="descripcionTrabajador">
+              <p className="sobreTrabajador">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                vitae pretium tellus. Nulla vitae orci egestas neque elementum
+                imperdiet. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Proin vitae pretium tellus. Nulla vitae orci egestas neque
+                elementum imperdiet.
+              </p>
+            </div>
+          </div>
+        </div>
+
         <Link to="/">
           <img
             src={logo}
@@ -97,52 +149,29 @@ export function DetallesTrabajador({ location }: any) {
             alt="logo de Biko"
           />
         </Link>
-        <div className="">
-          <div className="">
-            <img
-              src={trabajador.imgUrl}
-              className="fotoTrabajadorBiko"
-              alt="imagen de trabajador de Biko"
-            />
+
+        <div className="container-otros-trabajadores">
+          <div className="tecnologia-titulo">
+            <p className="tituloTecnologia">
+              Miembros de {trabajador.tecnologias.split(" ")[0]}
+            </p>
           </div>
-          <div className="">
-            <div className="informacionTrajador">
-              <div className="nombre-apellidos-trabajador">
-                <h1>{trabajador.nombre}</h1>
-                <h1>
-                  <b>{trabajador.apellidos}</b>
-                </h1>
-              </div>
-              <div>
-                <div className="rol">({trabajador.rol})</div>
-                <div className="equipo-fecha">
-                  <FontAwesomeIcon icon={faRocket} /> Fenix{" "}
-                  <FontAwesomeIcon icon={faCalendar} /> Desde{" "}
-                  {trabajador.fechaIncorporacion !== undefined
-                    ? trabajador.fechaIncorporacion.split("/")[2]
-                    : ""}
-                </div>
-              </div>
-              {tecnologias()}
-              <div className="descripcionTrabajador">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                vitae pretium tellus. Nulla vitae orci egestas neque elementum
-                imperdiet. Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit. Proin vitae pretium tellus. Nulla vitae orci egestas neque
-                elementum imperdiet.
-              </div>
-            </div>
+          <div className="miembros-tecnologia">
+            {trabajadoresMismaTecnologia()}
           </div>
-        </div>
-        <div>
-          <p>Miembros de {trabajador.tecnologias.split(" ")[0]}</p>
-          {trabajadoresMismaTecnologia()}
-        </div>
-      </div>
-      <div className="treabajadoresEquipo">
-        <div className="mismoEquipo">
-          <p>Otra gente de {trabajador.equipo}</p>
-          {trabajadoresMismoEquipo()}
+          <div className="arrow-container">
+            <p>
+              <i className="arrow-shape"></i>
+            </p>
+            <p>
+              <i className="arrow down"></i>
+            </p>
+          </div>
+
+          <div className="trabajadoresEquipo">
+            <p className="equipo-titulo">Otra gente de {trabajador.equipo}</p>
+          </div>
+          <div className="mismoEquipo">{trabajadoresMismoEquipo()}</div>
         </div>
       </div>
     </div>
