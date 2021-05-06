@@ -92,7 +92,6 @@ export function DetallesTrabajador({ location }: any) {
 
   function tecnologias() {
     const teconlogiasTrabajador: [] = trabajador.tecnologias.split(" ");
-    console.log(teconlogiasTrabajador);
 
     return (
       <ul className="lista-tecnologias">

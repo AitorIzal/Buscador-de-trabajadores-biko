@@ -656,3 +656,59 @@ p > .arrow {
   align-items: flex-start;
   padding: 0px;
 }
+
+.errores {
+  color: red;
+  position: absolute;
+  top: 400px;
+  left: 142px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22.78px;
+  line-height: 32px;
+}
+
+.card:hover .description-layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.description-layer {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 271px;
+  height: 265px;
+  background-image: linear-gradient(white, #fedd27);
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  transition: opacity 0.4s, visibility 0.2s;
+}
+
+.transition-layer {
+  transition: 0.5s;
+  transform: translateY(-1em);
+}
+
+.card:hover .transition-layer {
+  transform: translateY(0);
+}
+
+.trabajador-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20.25px;
+  line-height: 28px;
+  margin-left: 10px;
+
+  color: #000000;
+}
+
+.card {
+  border: none;
+}

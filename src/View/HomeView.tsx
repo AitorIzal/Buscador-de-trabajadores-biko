@@ -19,167 +19,107 @@ export const View = () => {
     };
     getData();
   }, []);
-  console.log(informacionTrabajadores);
 
   function handleSumbit(event: any) {
     event.preventDefault();
-    console.log(event.target.elements.searchInput.value);
     setInputSearch(event.target.elements.searchInput.value);
   }
 
-  function homeView() {
-    return (
-      <div className="main-container">
-        <div className="header">
-          <Link to="/">
-            <img src={logo} className="logo" alt="logo de Biko" />
-          </Link>
-          <div className="header-layout">
-            <div className="header-layout-text">
-              <h1 className="title">
-                Busca <b>Bikonianos</b>
-              </h1>
-              <p className="header-red-text">(lorem ipsum dolor set)</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="">
-          <div>
-            <div className="grupo-44">
-              <p className="body-text-type">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                vitae pretium tellus.
-              </p>
-            </div>
-
-            <div>
-              <form onSubmit={handleSumbit}>
-                <input
-                  type="search"
-                  id="searchInput"
-                  placeholder="Nombre Bikoniano"
-                  className="searchInput"
-                />
-                <button type="submit" className="btn-sumbit">
-                  <FontAwesomeIcon className="searchIcon" icon={faSearch} />
-                </button>
-              </form>
-            </div>
-          </div>
-
-          <div className="picture-grid">
-            <div className="line-grid">
-              {informacionTrabajadores.map((trabajador) => (
-                <div id={trabajador.id} className="trabajadoresBiko-container">
-                  <Link
-                    to={{
-                      pathname: `/detallesTrabajador/${trabajador.id}`,
-                      state: {
-                        trabajador: trabajador,
-                        informacionTrabajadores: informacionTrabajadores,
-                      },
-                    }}
-                  >
-                    <img
-                      src={trabajador.imgUrl}
-                      alt="imagen trabajador"
-                      className="trabajador_img"
-                    />
-                  </Link>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  function homeViewResultados() {
+  function addTrabajadores() {
     informacionTrabajadores.map((trabajador) => {
       let nombreApellido =
         trabajador.nombre.toUpperCase() +
         " " +
         trabajador.apellidos.toUpperCase();
-      if (nombreApellido.includes(inputSearch.toUpperCase())) {
-        console.log("se ha añadido trabajador");
+      if (nombreApellido.includes(inputSearch.toUpperCase().trim())) {
         searched.push(trabajador);
       }
     });
-    console.log(searched);
+  }
 
-    return (
-      <div className="container">
-        <div className="header">
-          <Link to="/">
-            <img src={logo} className="logo" alt="logo de Biko" />
-          </Link>
-          <div className="header-layout">
-            <div className="header-layout-text">
-              <h1 className="title">
-                Busca <b>Bikonianos</b>
-              </h1>
-              <p className="header-red-text">(lorem ipsum dolor set)</p>
-            </div>
-          </div>
-        </div>
+  addTrabajadores();
 
-        <div className="">
-          <div>
-            <div className="grupo-44">
-              <p className="body-text-type">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                vitae pretium tellus.
-              </p>
-            </div>
-
-            <div>
-              <form onSubmit={handleSumbit}>
-                <input
-                  type="search"
-                  id="searchInput"
-                  placeholder="Nombre Bikoniano"
-                  className="searchInput"
-                />
-                <button type="submit" className="btn-sumbit">
-                  <FontAwesomeIcon className="searchIcon" icon={faSearch} />
-                </button>
-              </form>
-            </div>
-          </div>
-
-          <div className="picture-grid">
-            <div className="line-grid">
-              {searched.map((trabajador) => (
-                <div id={trabajador.id} className="trabajadoresBiko-container">
-                  <Link
-                    to={{
-                      pathname: `/detallesTrabajador/${trabajador.id}`,
-                      state: {
-                        trabajador: trabajador,
-                        informacionTrabajadores: informacionTrabajadores,
-                      },
-                    }}
-                  >
-                    <img
-                      src={trabajador.imgUrl}
-                      alt="imagen trabajador"
-                      className="trabajador_img"
-                    />
-                  </Link>
-                </div>
-              ))}
-            </div>
+  let error: string;
+  if (searched.length == 0 && inputSearch !== "") {
+    error = "El nombre que ha indicado no existe";
+  } else {
+    error = "";
+  }
+  return (
+    <div className="container">
+      <div className="header">
+        <Link to="/">
+          <img src={logo} className="logo" alt="logo de Biko" />
+        </Link>
+        <div className="header-layout">
+          <div className="header-layout-text">
+            <h1 className="title">
+              Busca <b>Bikonianos</b>
+            </h1>
+            <p className="header-red-text">(lorem ipsum dolor set)</p>
           </div>
         </div>
       </div>
-    );
-  }
 
-  if (!inputSearch) {
-    return homeView();
-  } else {
-    return homeViewResultados();
-  }
+      <div className="">
+        <div>
+          <div className="grupo-44">
+            <p className="body-text-type">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+              vitae pretium tellus.
+            </p>
+          </div>
+
+          <div>
+            <form onSubmit={handleSumbit}>
+              <input
+                type="search"
+                id="searchInput"
+                placeholder="Nombre Bikoniano"
+                className="searchInput"
+              />
+              <button type="submit" className="btn-sumbit">
+                <FontAwesomeIcon className="searchIcon" icon={faSearch} />
+              </button>
+            </form>
+          </div>
+          <span className="errores">{error}</span>
+        </div>
+
+        <div className="picture-grid">
+          <div className="line-grid">
+            {searched.map((trabajador) => (
+              <div
+                id={trabajador.id}
+                className="trabajadoresBiko-container card"
+              >
+                <Link
+                  to={{
+                    pathname: `/detallesTrabajador/${trabajador.id}`,
+                    state: {
+                      trabajador: trabajador,
+                      informacionTrabajadores: informacionTrabajadores,
+                    },
+                  }}
+                >
+                  <img
+                    src={trabajador.imgUrl}
+                    alt="imagen trabajador"
+                    className="trabajador_img"
+                  />
+                  <div className="description-layer">
+                    <div className="transition-layer">
+                      <p className="trabajador-text">{trabajador.nombre}</p>
+                      <p className="trabajador-text">{trabajador.apellidos}</p>
+                      <p className="trabajador-text">{trabajador.rol}</p>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
